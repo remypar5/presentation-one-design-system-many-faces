@@ -1,0 +1,8 @@
+cite {
+    @apply text-right inline-block w-full;
+}
+
+cite::before {
+    @apply inline;
+    content: "— ";
+}
